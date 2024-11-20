@@ -41,3 +41,7 @@ nav ul li a {
     font-size: 17px;
     color: black;
 }
+
+nav ul li a:hover {
+    color: #4649C6;
+}
