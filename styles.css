@@ -65,3 +65,15 @@ header p {
     font-family: "Outfit", sans-serif;
     font-size: 20px;
 }
+
+.section-1 {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
