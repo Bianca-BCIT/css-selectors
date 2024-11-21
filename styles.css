@@ -11,8 +11,9 @@
     height: 100vh;
     width: 100%;
     position: fixed;
-    top: 0;
     z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 nav {
@@ -49,8 +50,10 @@ nav ul li a:hover {
 }
 
 header {
-    position: relative;
-    margin-top: 130px;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    z-index: 2;
     text-align: center;
     z-index: 2;
 }
@@ -66,3 +69,38 @@ header p {
     font-family: "Outfit", sans-serif;
     font-size: 20px;
 }
+
+.section-1 {
+    z-index: 2;
+    margin-top: 0px;
+    position: relative;
+    padding: 0px;
+}
+
+.section-1 .question {
+    width: 600px;
+    height: 90px;
+    background-color: #787AF9;
+    position: relative;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+
+.types {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
