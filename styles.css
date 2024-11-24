@@ -176,10 +176,11 @@ header p {
 }
 
 .section-2 .question {
-    width: 600px;
-    height: 90px;
+    width: 400px;
+    height: 130px;
     background-color: #787AF9;
     position: relative;
+    float: right;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     display: flex;
@@ -188,7 +189,7 @@ header p {
 }
 
 .question h1 {
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     color: #fff;
     font-family: "Outfit", sans-serif;
