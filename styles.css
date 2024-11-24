@@ -167,3 +167,30 @@ header p {
     opacity: 1; 
     visibility: visible; 
 }
+
+.section-2 {
+    z-index: 2;
+    margin-top: 0px;
+    position: relative;
+    padding: 0px;
+}
+
+.section-2 .question {
+    width: 600px;
+    height: 90px;
+    background-color: #787AF9;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
