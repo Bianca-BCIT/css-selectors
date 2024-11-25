@@ -211,3 +211,34 @@ header p {
     font-weight: 250;
     font-size: 24px;
 }
+
+.section-3 {
+    position: relative;
+    z-index: 2;
+    padding: 0px;
+    margin-top: 70px;
+}
+
+.section-3 .question {
+    width: 430px;
+    height: 100px;
+    background-color: #787AF9;
+    position: relative;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-text p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 250;
+    font-size: 24px;
+    padding: 40px 0px 0px 90px;
+}
+
+.image-2 {
+    float: right;
+    padding-right: 40px;
+}
