@@ -195,3 +195,19 @@ header p {
     font-family: "Outfit", sans-serif;
     font-weight: 300;
 }
+
+.image-1 {
+    padding-left: 90px;
+}
+
+.where-text {
+    position: absolute;
+    top: 190px;
+    left: 1100px;
+}
+
+.where-text p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 250;
+    font-size: 24px;
+}
