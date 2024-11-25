@@ -242,3 +242,27 @@ header p {
     float: right;
     padding-right: 40px;
 }
+
+.section-4 {
+    position: relative;
+    z-index: 2;
+    padding: 0px;
+    margin-top: 350px;
+}
+
+.section-4 .question {
+    width: 430px;
+    height: 100px;
+    background-color: #787AF9;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-3 {
+    padding: 70px 0px 0px 40px;
+}
