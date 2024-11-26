@@ -16,6 +16,8 @@
     left: 0;
 }
 
+
+
 nav {
     width: 100%;
     padding: 40px;
@@ -48,27 +50,28 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #2d0682;
+    text-decoration: underline;
 }
 
 header {
-    position: absolute;
-    top: 24%;
-    left: 30%;
+    display: block;
+    /* position: absolute; */
+    width: 100%;
+    padding-top: 10rem;
     z-index: 2;
     text-align: center;
-    z-index: 2;
 }
 
 header h1 {
     padding-bottom: 30px;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 4rem;
 }
 
 header p {
     font-family: "Outfit", sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .section-1 {
@@ -120,7 +123,7 @@ header p {
     align-items: center; 
     font-family: "Outfit", sans-serif;
     color: #000000;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden; 
@@ -129,6 +132,8 @@ header p {
 
 .types article .default-text {
     transition: opacity 0.3s ease;
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 .types article .hover-text {
@@ -137,13 +142,13 @@ header p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
+    width: 250px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-size: 14px;
+    font-size: 20px;
     opacity: 0;
     visibility: hidden;
 }
@@ -176,8 +181,8 @@ header p {
 }
 
 .section-2 .question {
-    width: 400px;
-    height: 130px;
+    width: 30rem;
+    height: 8rem;
     background-color: #787AF9;
     position: relative;
     float: right;
@@ -206,7 +211,7 @@ header p {
     left: 1100px;
 }
 
-.where-text p {
+.where-text ul {
     font-family: "Outfit", sans-serif;
     font-weight: 250;
     font-size: 24px;
