@@ -325,6 +325,11 @@ footer p {
     footer p {
         font-size: 1.2rem;
     }
+
+    .right-footer {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 /* Desktops */
@@ -367,12 +372,15 @@ footer p {
     .types {
         padding: 100px 180px;
         display: grid;
+        place-items: center;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 1fr;
         column-gap: 50px;
         row-gap: 50px;
         justify-content: center;
-        align-items: center;                  
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;                  
     }
     
     .types article {
@@ -391,6 +399,7 @@ footer p {
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         overflow: hidden; 
         cursor: pointer; 
+        max-width: 300px;
     }
     
     .types article .default-text {
@@ -442,26 +451,35 @@ footer p {
 
     img {
         width: auto;
-        height: 85%;
+        height: 20%;
     }
 
-    
-    .where .why {
+    div .where .why {
         display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        max-width: 75rem;
         width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-        padding-left: 4rem;
-        padding-right: 4rem;
     }
 
-    .why-text .where-text {
-        width: 50%;
-        padding-top: 2rem;
-        padding-left: 3rem;
+    .where img {
+        width: 55%;
+        height: auto;
     }
 
-    
+    .why img {
+        width: 55%;
+        height: auto;
+    }
+
+    .where-text li {
+        font-size: 1.5rem;
+    }
+
+    .why-text li {
+        font-size: 1.5rem;
+    }
+
     .code-demo {
         margin: 3rem;
     }
