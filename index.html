@@ -100,7 +100,18 @@
         </article>
             <div class="where">
                 <article class="image-1">
-                    <img src="images/circle-image-1.png" alt="branding on computer">
+                    <img srcset="
+                            images/circle-image-1.png 28w,
+                            images/circle-image-1.png 35w,
+                            images/circle-image-1.png 48w,
+                            images/circle-image-1.png 60w"
+                         sizes="(min-width: 60rem) 60rem, 
+                                (min-width: 48rem) 48rem, 
+                                (min-width: 35rem) 35rem, 
+                                (min-width: 28rem) 28rem, 
+                                100vw"
+                         src="images/circle-image-1.png" 
+                         alt="branding on computer">
                 </article>
                 <article class="where-text">
                     <ul>
