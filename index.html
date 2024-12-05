@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Selectors | Group #2</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,11 +16,162 @@
         <ul>
             <li>
                 <a class="nav-link" href="#what">what</a>
-                <a class="nav-link" href="#what">where</a>
-                <a class="nav-link" href="#what">why</a>
-                <a class="nav-link" href="#what">how</a>
+                <a class="nav-link" href="#where">where</a>
+                <a class="nav-link" href="#why">why</a>
+                <a class="nav-link" href="#how">how</a>
             </li>
         </ul>
     </nav>
+    <header>
+        <h1>CSS Selectors</h1>
+        <p>CSS Selectors are patterns used in CSS to select and style HTML elements on a page.</p>
+    </header>
+    <section class="section-1" id="what">
+        <article class="question">
+            <h1>what is it and what does it do</h1>
+        </article>
+        <section class="types">
+            <article>
+                <div class="default-text">
+                    <p>Simple Selectors</p>
+                </div>
+                <div class="hover-text">
+                    <p>Selects elements based on ID, name or class.
+                        <span>Universal</span> selector selects all elements.
+                        <span>Element</span> selector selects an element.
+                        <span>Class</span> selector selects all elements with specified class.
+                        <span>ID</span> selector selects all elements with specified ID. 
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="default-text">
+                    <p>Multiple Selectors</p>
+                </div>
+                <div class="hover-text">
+                    <p>Selects all the element(s) that have the specified ID or class of two or more classes or IDs and chains them.</p>
+                </div>
+            </article>
+            <article>
+                <div class="default-text">
+                    <p>Attribute Selectors</p>
+                </div>
+                <div class="hover-text">
+                    <p>A way to target HTML elements based on the presence or value of an attribute. They let you apply styles to elements with specific attributes, or even specific values within those attributes.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="default-text">
+                    <p>Combinators</p>
+                </div>
+                <div class="hover-text">
+                    <p>Explains the connection between selector. There are 4 different types of combinators:
+                        <span>Descendant</span> combinator (space),
+                        <span>Child</span> combinator (>),
+                        <span>Next sibling</span> combinator (+),
+                        and <span>Subsequent-sibling</span> combinator (~).
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="default-text">
+                    <p>Pseudo-Elements</p>
+                </div>
+                <div class="hover-text">
+                    <p>A keyword added to a selector, allowing you to style a specific section of the chosen element(s).
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="default-text">
+                    <p>Pseudo-Classes</p>
+                </div>
+                <div class="hover-text">
+                    <p>A selector that selects elements in a specific state. For instance, when they are being hovered by the mouse pointer.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </section>
+    <section class="section-2" id="where">
+        <article class="question">
+            <h1>where would you use it</h1>
+        </article>
+            <div class="where">
+                <article class="image-1">
+                    <img srcset="
+                            images/circle-image-1.png 28w,
+                            images/circle-image-1.png 35w,
+                            images/circle-image-1.png 48w,
+                            images/circle-image-1.png 60w"
+                         sizes="(min-width: 60rem) 60rem, 
+                                (min-width: 48rem) 48rem, 
+                                (min-width: 35rem) 35rem, 
+                                (min-width: 28rem) 28rem, 
+                                100vw"
+                         src="images/circle-image-1.png" 
+                         alt="branding on computer">
+                </article>
+                <article class="where-text">
+                    <ul>
+                        <li>web layout</li>
+                        <li>form styling</li>
+                        <li>responsive design</li>
+                        <li>state-based style</li>
+                        <li>theme/branding</li>
+                        <li>animations/transitions</li>
+                    </ul>
+                </article>
+            </div>
+    <section class="section-3" id="why">
+        <article class="question">
+            <h1>why do you use it</h1>
+        </article>
+            <div class="why">
+                <article class="image-2">
+                    <img src="images/circle-image-2.png" alt="code">
+                </article>
+                <article class="why-text">
+                    <ul>
+                        <li>precise targeting</li>
+                        <li>consistency</li>
+                        <li>maintainability + scalability</li>
+                        <li>improved user experience</li>
+                        <li>enhances accessibility</li>
+                        <li>simplified styling</li>
+                    </ul>
+                </article>
+            </div>
+    </section>
+    <section class="section-4" id="how">
+        <article class="question">
+            <h1>how do you use it</h1>
+        </article>
+        <div class="code-demo">
+            <p class="codepen" 
+            data-height="700"
+            data-theme-id="dark" 
+            data-default-tab="html,result" 
+            data-slug-hash="gbYOgLg" 
+            data-pen-title="CSS Selectors - Code Along" data-preview="true" 
+            data-editable="true" 
+            data-user="niiicole" 
+            style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/niiicole/pen/gbYOgLg">
+                CSS Selectors - Code Along</a> by Nicole (<a href="https://codepen.io/niiicole">@niiicole</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    </section>
+    <footer>
+        <div class="left-footer">
+            <h2>CSS Selectors</h2>
+            <p>For education purposes only</p>
+            <p>BCIT | FWD 40</p>
+        </div>
+        <div class="right-footer">
+            <p>Designed and built by Bianca Scoropan, Nicole Logan, and Najmeh Ahmadi</p>
+    </footer>
 </body>
 </html>
